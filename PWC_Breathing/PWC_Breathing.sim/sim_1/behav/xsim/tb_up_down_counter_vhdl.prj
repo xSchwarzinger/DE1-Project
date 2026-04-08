@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../PWC_Breathing.srcs/sources_1/new/up_down_counter.vhd" \
+"../../../../PWC_Breathing.srcs/sim_1/new/tb_up_down_counter.vhd" \
+
+# Do not sort compile order
+nosort
