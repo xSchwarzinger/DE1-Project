@@ -1,4 +1,3 @@
-[Uploading Untitled Diagram.drawio…]()
 # DE1-Project
 This repository contains files form our VHDL project for Digital Electronics 1
 # Project
