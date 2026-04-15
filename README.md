@@ -17,7 +17,7 @@ Náš program bude postupně rozsvicovat a zhasínat LED tak, aby simuloval nád
 ## clk_en
 
 ## up_down_counter
-Funguje jako klasický counter s tím rozdílem, že počítá od 0 do 255 a poté začne odečítat zpět do 0. Má vstupy clk, rst (z tlačítka btnu) a signál en z komponenty clk_en.
+Funguje jako klasický counter s tím rozdílem, že počítá od 0 do 255 a poté začne odečítat zpět do 0. Má vstupy clk, rst (z tlačítka btnu) a signál en (z komponenty clk_en) a výstup brgh, neboli jas LEDky.
 <img width="1261" height="572" alt="image" src="https://github.com/user-attachments/assets/2e62324f-69ae-47a8-81fe-bd5604bc6af1" />
 
 ## pwm_driver
