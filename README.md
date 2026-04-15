@@ -30,7 +30,7 @@ __en__ - Vstup pro povolení čítání (připojuje se k výstupu ce modulu clk_
 __brgh__ - 8bitový výstupní vektor (0–255) reprezentující aktuální jas
 
 <img width="1261" height="572" alt="image" src="https://github.com/user-attachments/assets/2e62324f-69ae-47a8-81fe-bd5604bc6af1" />
-Simulace __up_down_counter__, která ukazuje jak se při hodnotě 255 mění směr počítání signálu
+Simulace up_down_counter, která ukazuje jak se při hodnotě 255 mění směr počítání signálu
 
 ## pwm_driver
 Tento modul slouží jako digitálně-analogový převodník využívající __PWM__. Převádí 8bitovou hodnotu jasu na digitální signál, jehož střída odpovídá požadované intenzitě svitu LED.
