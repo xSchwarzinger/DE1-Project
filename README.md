@@ -3,7 +3,7 @@ This repository contains files form our VHDL project for Digital Electronics 1
 # Project
 1 - PWM Breathing
 # Funkcionalita
-Náš program bude postupně rozsvicovat a zhasínat LED tak, aby simuloval nádech a výdech.\
+Náš program bude postupně rozsvicovat a zhasínat LED tak, aby simuloval nádech a výdech.
 ## Použité součástky na desce:
   ### BTNU
   Funguje jako reset tlačítko. Vždy vrátí dýchání na začátek nádechu.
