@@ -10,6 +10,7 @@ Použité součástky na desce:\
   LED 15 - LEDka, kterou jsme vybrali - bude simulovat dýchání
 # Blokové schéma
 <img width="844" height="322" alt="image" src="https://github.com/user-attachments/assets/bc7a2856-1f1d-4dc3-ada6-a1c598086dec" />
+
 # Komponenty
 ## clk_en
 ## up_down_counter
