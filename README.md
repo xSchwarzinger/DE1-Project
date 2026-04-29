@@ -10,7 +10,8 @@ Náš program bude postupně rozsvicovat a zhasínat LED tak, aby simuloval nád
   ### LED 15
   LEDka, kterou jsme vybrali - bude simulovat dýchání
 # Blokové schéma
-<img width="844" height="322" alt="image" src="https://github.com/user-attachments/assets/bc7a2856-1f1d-4dc3-ada6-a1c598086dec" />
+<img width="1301" height="536" alt="29a6b18c-e5b8-4795-b03b-622eb51e2807" src="https://github.com/user-attachments/assets/7f8537be-8a56-4f42-aa11-9d77f4d1403a" />
+
 
 # Moduly
 ## clk_en
