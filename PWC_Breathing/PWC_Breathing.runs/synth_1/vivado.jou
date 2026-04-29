@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Apr 29 12:52:39 2026
+# Process ID         : 2624
+# Current directory  : C:/Users/270995/Vivado/PWC_Breathing/PWC_Breathing.runs/synth_1
+# Command line       : vivado.exe -log top_breathing_led.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_breathing_led.tcl
+# Log file           : C:/Users/270995/Vivado/PWC_Breathing/PWC_Breathing.runs/synth_1/top_breathing_led.vds
+# Journal file       : C:/Users/270995/Vivado/PWC_Breathing/PWC_Breathing.runs/synth_1\vivado.jou
+# Running On         : PC-638
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i3-9100 CPU @ 3.60GHz
+# CPU Frequency      : 3600 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 4
+# Host memory        : 8423 MB
+# Swap memory        : 2818 MB
+# Total Virtual      : 11242 MB
+# Available Virtual  : 2771 MB
+#-----------------------------------------------------------
+source top_breathing_led.tcl -notrace
