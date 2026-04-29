@@ -16,13 +16,24 @@ Náš program bude postupně rozsvicovat a zhasínat LED tak, aby simuloval nád
 
 # Moduly
 ## clk_en
-Slouží jako metronom. Generuje krátký puls __ce__, který trvá jeden takt hlavních hodin a opakuje se v intervalu daném parametrem G_MAX. To umožňuje synchronně řídit pomalé procesy, jako je změna jasu LED, při zachování 100MHz frekvence systému.
+Slouží jako metronom. Generuje krátký puls __ce__, který trvá jeden takt hlavních hodin a opakuje se v intervalu daném parametrem G_MAX (Nastaveno na 1 000 000). To umožňuje synchronně řídit pomalé procesy, jako je změna jasu LED, při zachování 100MHz frekvence systému.
 ### Porty:
 __clk__ - Hlavní hodinový signál\
 __rst__ - Synchronní reset; vynuluje čítač i vstup\
 __ce__ - Výstupní puls
 ### Testbench
-<img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/1186aa17-8c8c-4457-9c9f-6f8a9f04cfda" />
+<img width="1064" height="169" alt="Screenshot 2026-04-29 125029" src="https://github.com/user-attachments/assets/631e569f-9136-43d9-82d5-a5dd4bf7293e" />
+
+## clk_en_pwm
+Modul slouží jako vysokorychlostní metronom pro PWM driver. Generuje krátký puls __ce__, který se opakuje v intervalu daném parametrem G_MAX (Nastaveno na 1 000). Na rozdíl od základního modulu clk_en je tento určen pro mnohem častější generování pulzů, což zajišťuje vysokou frekvenci PWM a tím i plynulé stmívání LED bez viditelného blikání.
+### Porty:
+__clk__ - Hlavní hodinový signál\
+__rst__ - Synchronní reset; vynuluje čítač i vstup\
+__ce__ - Výstupní puls
+### Testbench
+<img width="1032" height="171" alt="Screenshot 2026-04-29 125112" src="https://github.com/user-attachments/assets/04d6aeed-3fb5-406c-b340-3aae02e7d96f" />
+
+
 
 
 ## up_down_counter
@@ -32,9 +43,8 @@ __clk__ - Hlavní hodinový signál\
 __rst__ - Synchronní reset; vrací čítač na 0 a nastavuje směr počítání nahoru\
 __en__ - Vstup pro povolení čítání (připojuje se k výstupu ce modulu clk_en)\
 __brgh__ - 8bitový výstupní vektor (0–255) reprezentující aktuální jas
-
-<img width="1261" height="572" alt="image" src="https://github.com/user-attachments/assets/2e62324f-69ae-47a8-81fe-bd5604bc6af1" />
-Simulace up_down_counter, která ukazuje jak se při hodnotě 255 mění směr počítání signálu
+### Testbench
+<img width="1041" height="272" alt="image" src="https://github.com/user-attachments/assets/7c8e0ceb-cfb5-4ac3-b85c-3bc6fd2a7760" />
 
 ## pwm_driver
 Tento modul slouží jako digitálně-analogový převodník využívající __PWM__. Převádí 8bitovou hodnotu jasu na digitální signál, jehož střída odpovídá požadované intenzitě svitu LED.
@@ -43,6 +53,11 @@ __clk__ - Hlavní hodinový signál\
 __rst__ - Synchronní reset\
 __brgh__ - 8bitový vstupní vektor (0–255) reprezentující aktuální jas\
 __pwm_out__ - Výstupní PWM signál připojený přímo na fyzickou LED.
+### Testbench
+<img width="965" height="210" alt="Screenshot 2026-04-29 131216" src="https://github.com/user-attachments/assets/9927260b-854e-4c9c-a397-9842db7967cb" />
+
+
+
 
 # Authors
 Jan Feik, Mathias Schwarzinger
