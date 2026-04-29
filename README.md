@@ -10,7 +10,8 @@ Náš program bude postupně rozsvicovat a zhasínat LED tak, aby simuloval nád
   ### LED 15
   LEDka, kterou jsme vybrali - bude simulovat dýchání
 # Blokové schéma
-<img width="1301" height="536" alt="29a6b18c-e5b8-4795-b03b-622eb51e2807" src="https://github.com/user-attachments/assets/7f8537be-8a56-4f42-aa11-9d77f4d1403a" />
+<img width="1203" height="495" alt="261625c3-45dd-4885-a048-1a631533f656" src="https://github.com/user-attachments/assets/f63bf44e-c6f2-4871-a7a8-ab20342afc7e" />
+
 
 
 # Moduly
@@ -20,6 +21,9 @@ Slouží jako metronom. Generuje krátký puls __ce__, který trvá jeden takt h
 __clk__ - Hlavní hodinový signál\
 __rst__ - Synchronní reset; vynuluje čítač i vstup\
 __ce__ - Výstupní puls
+### Testbench
+<img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/1186aa17-8c8c-4457-9c9f-6f8a9f04cfda" />
+
 
 ## up_down_counter
 Funguje jako klasický counter s tím rozdílem, že generuje 8bitovou hodnotu (0–255), která se plynule zvyšuje a snižuje, čímž vytváří trojúhelníkový průběh signálu. 
