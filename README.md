@@ -7,7 +7,7 @@ Náš program bude postupně rozsvicovat a zhasínat LED tak, aby simuloval nád
 ## Použité součástky na desce:
   ### BTNU
   Funguje jako reset tlačítko. Vždy vrátí dýchání na začátek nádechu.
-  ### LED 15
+  ### LD 15
   LEDka, kterou jsme vybrali - bude simulovat dýchání
 # Blokové schéma
 <img width="1203" height="495" alt="261625c3-45dd-4885-a048-1a631533f656" src="https://github.com/user-attachments/assets/f63bf44e-c6f2-4871-a7a8-ab20342afc7e" />
