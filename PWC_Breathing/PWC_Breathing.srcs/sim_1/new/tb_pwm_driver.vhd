@@ -35,7 +35,7 @@ begin
 
 
         brgh <= std_logic_vector(to_unsigned(25, 8)); 
-        wait for 10 us; -- Čas pro cca 4 celé PWM cykly
+        wait for 10 us; 
 
 
         brgh <= std_logic_vector(to_unsigned(128, 8));
