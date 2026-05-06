@@ -60,7 +60,7 @@ __rst__ - Synchronní reset\
 __brgh__ - 8bitový vstupní vektor (0–255) reprezentující aktuální jas\
 __pwm_out__ - Výstupní PWM signál připojený přímo na fyzickou LED.
 ### Testbench
-<img width="965" height="210" alt="Screenshot 2026-04-29 131216" src="https://github.com/user-attachments/assets/9927260b-854e-4c9c-a397-9842db7967cb" /> \
+<img width="853" height="167" alt="Screenshot 2026-05-06 133417" src="https://github.com/user-attachments/assets/69f6f129-3556-4488-9d46-1a056514f2fd" /> \
 [Odkaz na TestBench](https://github.com/xSchwarzinger/DE1-Project/blob/main/PWC_Breathing/PWC_Breathing.srcs/sim_1/new/tb_pwm_driver.vhd)
 # Využití prostředků
 <img width="496" height="109" alt="image" src="https://github.com/user-attachments/assets/42538f97-248f-4295-867e-e0f19d083358" /> \
