@@ -64,11 +64,13 @@ __pwm_out__ - Výstupní PWM signál připojený přímo na fyzickou LED.
 [Odkaz na TestBench](https://github.com/xSchwarzinger/DE1-Project/blob/main/PWC_Breathing/PWC_Breathing.srcs/sim_1/new/tb_pwm_driver.vhd)
 # Využití prostředků
 <img width="496" height="109" alt="image" src="https://github.com/user-attachments/assets/42538f97-248f-4295-867e-e0f19d083358" /> \
+
 # Video demonstrace 
 <img width="600" height="456" alt="IMG_3718" src="https://github.com/user-attachments/assets/e11924f7-72a9-49f4-861e-dc317213b143" />
 
+# Plakát 
 
-
+[DE1-plakát.pdf](https://github.com/user-attachments/files/27437515/DE1-plakat.pdf)
 
 # Využité zdroje
 * Byl použit modul clk_en, který jsme vytvářeli v laboratorních cvičeních DE1
