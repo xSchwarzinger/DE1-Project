@@ -29,6 +29,7 @@ Check my [test document](./blob/main/PWC_Breathing/PWC_Breathing.srcs/sim_1/new/
 
 ## clk_en_pwm
 Modul slouží jako vysokorychlostní metronom pro PWM driver. Generuje krátký puls __ce__, který se opakuje v intervalu daném parametrem G_MAX (Nastaveno na 1 000). Na rozdíl od základního modulu clk_en je tento určen pro mnohem častější generování pulzů, což zajišťuje vysokou frekvenci PWM a tím i plynulé stmívání LED bez viditelného blikání.
+[only in simulations](https://www.vhdl-online.de/courses/system_design/vhdl_language_and_syntax/sequential_statements/wait_statement)
 ### Porty:
 __clk__ - Hlavní hodinový signál\
 __rst__ - Synchronní reset; vynuluje čítač i vstup\
