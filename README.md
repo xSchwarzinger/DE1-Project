@@ -34,7 +34,7 @@ __rst__ - Synchronní reset; vynuluje čítač i vstup\
 __ce__ - Výstupní puls
 ### Testbench
 <img width="1032" height="171" alt="Screenshot 2026-04-29 125112" src="https://github.com/user-attachments/assets/04d6aeed-3fb5-406c-b340-3aae02e7d96f" /> \
-[Odkaz na TestBench](https://github.com/xSchwarzinger/DE1-Project/blob/main/PWC_Breathing/PWC_Breathing.srcs/sim_1/new/tb_ckl_en_pwm.vhd)
+[Odkaz na TestBench](https://github.com/xSchwarzinger/DE1-Project/blob/main/PWC_Breathing/PWC_Breathing.srcs/sim_1/new/tb_clk_en_pwm.vhd)
 
 
 
@@ -47,7 +47,8 @@ __rst__ - Synchronní reset; vrací čítač na 0 a nastavuje směr počítání
 __en__ - Vstup pro povolení čítání (připojuje se k výstupu ce modulu clk_en)\
 __brgh__ - 8bitový výstupní vektor (0–255) reprezentující aktuální jas
 ### Testbench
-<img width="1041" height="272" alt="image" src="https://github.com/user-attachments/assets/7c8e0ceb-cfb5-4ac3-b85c-3bc6fd2a7760" />
+<img width="1041" height="272" alt="image" src="https://github.com/user-attachments/assets/7c8e0ceb-cfb5-4ac3-b85c-3bc6fd2a7760" /> \
+[Odkaz na TestBench](https://github.com/xSchwarzinger/DE1-Project/blob/main/PWC_Breathing/PWC_Breathing.srcs/sim_1/new/tb_up_down_counter.vhd)
 
 ## pwm_driver
 Tento modul slouží jako digitálně-analogový převodník využívající __PWM__. Převádí 8bitovou hodnotu jasu na digitální signál, jehož střída odpovídá požadované intenzitě svitu LED.
@@ -57,7 +58,8 @@ __rst__ - Synchronní reset\
 __brgh__ - 8bitový vstupní vektor (0–255) reprezentující aktuální jas\
 __pwm_out__ - Výstupní PWM signál připojený přímo na fyzickou LED.
 ### Testbench
-<img width="965" height="210" alt="Screenshot 2026-04-29 131216" src="https://github.com/user-attachments/assets/9927260b-854e-4c9c-a397-9842db7967cb" />
+<img width="965" height="210" alt="Screenshot 2026-04-29 131216" src="https://github.com/user-attachments/assets/9927260b-854e-4c9c-a397-9842db7967cb" /> \
+[Odkaz na TestBench](https://github.com/xSchwarzinger/DE1-Project/blob/main/PWC_Breathing/PWC_Breathing.srcs/sim_1/new/tb_pwm_driver.vhd)
 # Využití prostředků
 <img width="496" height="109" alt="image" src="https://github.com/user-attachments/assets/42538f97-248f-4295-867e-e0f19d083358" />
 
