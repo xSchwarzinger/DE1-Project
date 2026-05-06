@@ -24,6 +24,7 @@ __ce__ - Výstupní puls
 ### Testbench
 <img width="1064" height="169" alt="Screenshot 2026-04-29 125029" src="https://github.com/user-attachments/assets/631e569f-9136-43d9-82d5-a5dd4bf7293e" /> \
 [Odkaz na TestBench](https://github.com/xSchwarzinger/DE1-Project/blob/main/PWC_Breathing/PWC_Breathing.srcs/sim_1/new/tb_ckl_en.vhd)
+G_MAX je pro simulaci nastaveno na 10
 
 
 ## clk_en_pwm
@@ -35,6 +36,7 @@ __ce__ - Výstupní puls
 ### Testbench
 <img width="1032" height="171" alt="Screenshot 2026-04-29 125112" src="https://github.com/user-attachments/assets/04d6aeed-3fb5-406c-b340-3aae02e7d96f" /> \
 [Odkaz na TestBench](https://github.com/xSchwarzinger/DE1-Project/blob/main/PWC_Breathing/PWC_Breathing.srcs/sim_1/new/tb_clk_en_pwm.vhd)
+G_MAX je pro simulaci nastaveno na 10
 
 
 
