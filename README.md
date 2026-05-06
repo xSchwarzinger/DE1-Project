@@ -1,9 +1,9 @@
-# DE1-Project
-This repository contains files form our VHDL project for Digital Electronics 1
-# Project
+# DE1-Projekt
+Tento repozitář obsahuje soubory z našeho projektu ve VHDL pro předmět Digitální elektronika 1.
+# Projekt
 1 - PWM Breathing
 # Funkcionalita
-Náš program bude postupně rozsvicovat a zhasínat LED tak, aby simuloval nádech a výdech.
+Náš program bude postupně rozsvicovat a zhasínat LED tak, aby simuloval nádech a výdech. Celý systém funguje na principu digitálního řízení jasu pomocí pulzně šířkové modulace (PWM). Základem jsou dva frekvenční děliče (clk_en a clk_en_pwm), které z vysokofrekvenčního hodinového signálu FPGA (100 MHz) vytvářejí dva různé časové impulsy. Pomalejší impuls řídí obousměrný čítač (up_down_counter), který plynule zvyšuje a snižuje 8bitovou hodnotu jasu v čase, čímž vytváří efekt „dýchání“. Rychlejší impuls pak určuje pracovní frekvenci PWM driveru, který tuto hodnotu jasu porovnává s vnitřním rychlým čítačem. Výsledkem je digitální signál s proměnlivou střídou, který po připojení k LED diodě lidské oko vnímá jako plynulou změnu intenzity svitu bez viditelného blikání.
 ## Použité součástky na desce:
   ### BTNU
   Funguje jako reset tlačítko. Vždy vrátí dýchání na začátek nádechu.
@@ -56,9 +56,11 @@ __brgh__ - 8bitový vstupní vektor (0–255) reprezentující aktuální jas\
 __pwm_out__ - Výstupní PWM signál připojený přímo na fyzickou LED.
 ### Testbench
 <img width="965" height="210" alt="Screenshot 2026-04-29 131216" src="https://github.com/user-attachments/assets/9927260b-854e-4c9c-a397-9842db7967cb" />
+# Využití prostředků
+<img width="496" height="109" alt="image" src="https://github.com/user-attachments/assets/42538f97-248f-4295-867e-e0f19d083358" />
 
 
 
 
-# Authors
+# Autoři
 Jan Feik, Mathias Schwarzinger
