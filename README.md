@@ -34,6 +34,8 @@ __ce__ - Výstupní puls
 ### Testbench
 <img width="1032" height="171" alt="Screenshot 2026-04-29 125112" src="https://github.com/user-attachments/assets/04d6aeed-3fb5-406c-b340-3aae02e7d96f" />
 
+[a link](https://github.com/user/repo/blob/branch/other_file.md)
+
 
 
 
