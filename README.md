@@ -65,7 +65,7 @@ __pwm_out__ - Výstupní PWM signál připojený přímo na fyzickou LED.
 
 # Využité prostředky
 * Byl použit modul clk_en, který jsme vytvářeli v laboratorních cvičeních DE1
-* Ke generování testbenchů jsme použili webovou stránku [Lapinoo.net](https://vhdl.lapinoo.net/)
+* Ke generování některých testbenchů jsme použili webovou stránku [Lapinoo.net](https://vhdl.lapinoo.net/) , tyto testbenche jsme později upravili.
 
 
 
